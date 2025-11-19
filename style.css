@@ -268,6 +268,13 @@ a.meet:hover {
 .contact {
   background-color: var(--color-primary);
   padding: 2rem 0;
+  color: #fff;
+}
+
+.contact h2 {
+  color: #fff;
+  font-size: 3.8rem;
+  text-align: center;
 }
 
 .contact-info {
@@ -280,10 +287,6 @@ a.meet:hover {
   align-items: center;
   justify-content: center;
 }
-.contact-right h2 {
-  color: #fff;
-  font-size: 3.8rem;
-}
 
 .contact-right a {
   display: block;
@@ -291,10 +294,35 @@ a.meet:hover {
   padding: 1.5rem 2rem;
   margin: 2rem 0;
   font-weight: 600;
+  color: var(--color-primary);
 }
 
 .contact-right span {
   color: #fff;
+}
+
+.career-decision {
+  display: flex;
+  gap: 2rem;
+}
+
+.decision-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.decision-left h2 {
+  align-self: self-start;
+}
+
+.decision-left span {
+  display: block;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: bolder;
 }
 
 /* UTILS */
