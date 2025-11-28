@@ -148,6 +148,7 @@ img.logo {
   min-height: 200px; /* keeps cards visually equal height */
   text-align: center;
   color: #fff;
+  flex: 1;
 }
 
 .services .service h1 {
@@ -266,6 +267,8 @@ a.meet:hover {
 .testimony {
   display: flex;
   flex-direction: column;
+  padding: 0 1rem;
+  align-items: start;
 }
 
 .author {
