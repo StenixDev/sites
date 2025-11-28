@@ -30,6 +30,11 @@
     font-size: 3.2rem;
   }
 
+  img.logo {
+    width: 60%;
+    margin: 0 auto;
+  }
+
   .section {
     margin-top: 0;
   }
@@ -52,6 +57,7 @@
 
   img.logo {
     width: 60%;
+
     margin: 0 auto;
   }
 
@@ -116,5 +122,94 @@
 
   .decision-left span {
     text-align: center;
+  }
+}
+
+/* 600px */
+
+@media (max-width: 37.5em) {
+  .trainor img {
+    height: 50%;
+  }
+
+  .awards ul {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .awards {
+    font-size: 1.6rem;
+  }
+}
+
+/* 500px */
+
+@media (max-width: 31.25em) {
+  .wrapper h2 {
+    font-size: 2.4rem;
+  }
+}
+
+/* 400px */
+@media (max-width: 25em) {
+  nav ul li a:link,
+  nav ul li a:visited {
+    font-size: 1.2ddrem;
+  }
+
+  img.logo {
+    width: 45%;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  .banner_text h2 {
+    font-size: 2rem;
+  }
+
+  .banner_text h3 {
+    font-size: 1.6rem;
+  }
+
+  .services .service h1 {
+    font-size: 1.6rem;
+  }
+
+  .services .service p {
+    font-size: 1.4rem;
+  }
+
+  .trainor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trainor p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trainor a {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .awards {
+    font-size: 1.2rem;
+  }
+
+  .intro h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* 300px */
+@media (max-width: 18.75em) {
+  html {
+    font-size: 45%;
   }
 }
