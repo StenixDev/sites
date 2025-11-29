@@ -243,6 +243,7 @@ a.meet:hover {
 }
 
 .awards {
+  width: 100%;
   margin-top: 2rem;
   font-size: 1.8rem;
   background-image: url(https://usmilitaryclean.com/wp-content/uploads/2023/06/awardbg6.jpg);
@@ -394,6 +395,11 @@ a.meet:hover {
   flex: 1 1 auto;
   min-width: 0; /* CRITICAL: allows text to wrap */
   overflow-wrap: anywhere;
+}
+
+.author {
+  border-radius: 100%;
+  width: 25%;
 }
 
 footer {
